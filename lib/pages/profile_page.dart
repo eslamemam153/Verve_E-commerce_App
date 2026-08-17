@@ -15,31 +15,31 @@ class ProfilePage extends StatelessWidget {
             onTap: () {},
             leading: Icon(Icons.email),
             title: Text("Email"),
-            subtitle: Text("abdallhelrabiey255@gamil.com"),
+            subtitle: Text("eslamvip892@gamil.com"),
           ),
           ListTile(
             onTap: () {},
             leading: Icon(Icons.mobile_screen_share_outlined),
             title: Text("Mobile"),
-            subtitle: Text("01006257074"),
+            subtitle: Text("01236596897"),
           ),
           ListTile(
             onTap: () {},
             leading: Icon(Icons.facebook),
             title: Text("Facebook"),
-            subtitle: Text("abdallhelrabiey255@gamil"),
+            subtitle: Text("Eslam Emam"),
           ),
           ListTile(
             onTap: () {},
-            leading: Icon(Icons.beach_access),
-            title: Text("Behance"),
-            subtitle: Text("xyz.com"),
+            leading: Icon(Icons.hub_outlined),
+            title: Text("GitHub"),
+            subtitle: Text("eslamemam153"),
           ),
           ListTile(
             onTap: () {},
-            leading: Icon(Icons.email),
-            title: Text("Email"),
-            subtitle: Text("abdallhelrabiey255@gamil.com"),
+            leading: Icon(Icons.link_rounded),
+            title: Text("Linked-in"),
+            subtitle: Text("in/eslam-emam153"),
           ),
         ],
       ),
@@ -92,19 +92,17 @@ class ProfileLeading extends StatelessWidget {
             radius: 50,
             child: CircleAvatar(
               radius: 48,
-              backgroundImage: NetworkImage(
-                "https://images.unsplash.com/photo-1496715976403-7e36dc43f17b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-              ),
+              backgroundImage: AssetImage("assets/images/Profile.jpg"),
             ),
           ),
           Column(
             children: [
               Text(
-                "Abdallh Mostafa",
+                "Eslam Emam",
                 style: TextStyle(color: Colors.white, fontSize: 20),
               ),
               Text(
-                "Senior Flutter Developer",
+                "Software Engineer",
                 style: TextStyle(color: Colors.white, fontSize: 18),
               ),
             ],

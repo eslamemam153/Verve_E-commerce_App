@@ -37,7 +37,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/images/gettyimages-114091224-612x612.jpg
+    - assets/images/
     - assets/animations/Alphabet A.json
 
   fonts:

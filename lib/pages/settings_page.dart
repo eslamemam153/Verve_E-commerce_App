@@ -67,14 +67,14 @@ class SettingsPage extends StatelessWidget {
             ),
           ),
           ListTile(
-            leading: Icon(Icons.person),
+            leading: Icon(Icons.warning_amber_rounded),
             title: Text("Report a bug"),
             trailing: Icon(Icons.arrow_forward_ios_outlined),
           ),
           Divider(indent: 20, endIndent: 20),
           ListTile(
-            leading: Icon(Icons.person),
-            title: Text("Account"),
+            leading: Icon(Icons.send_outlined),
+            title: Text("Send feedback"),
             trailing: Icon(Icons.arrow_forward_ios_outlined),
           ),
           Divider(indent: 20, endIndent: 20),
