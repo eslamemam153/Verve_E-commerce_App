@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class HomeCategorySection extends StatelessWidget {
   const HomeCategorySection({super.key});
-
+  final bool isSelected = false;
   @override
   Widget build(BuildContext context) {
     return ChoiceChip(
